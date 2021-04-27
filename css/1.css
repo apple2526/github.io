@@ -1,0 +1,396 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    color: #19537D;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+body {
+    font-family: Verdana, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: #E1E0C7;
+}
+
+.main1 {
+    width: 100%;
+    background-color: #5D6146;
+    height: 45px;
+    border-bottom: 1px solid #d7d5bc;
+}
+
+.main1 .cont {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main1 .cont .left {
+    width: 125px;
+    float: left;
+}
+
+.main1 .cont .left h1 a {
+    font-size: 26px;
+    float: left;
+    line-height: 44px;
+    height: 44px;
+    color: #F0EFE2;
+    font-weight: bold;
+}
+
+.main1 .cont .right {
+    width: 870px;
+    float: right;
+}
+
+.main1 .cont .right .son1 {
+    height: 45px;
+    float: left;
+}
+
+.main1 .cont .right .son1 ul li a {
+    font-size: 15px;
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    color: #F0EFE2;
+}
+
+.main1 .cont .right .son1 ul li:first-child {
+    margin-left: 1px;
+    background-color: #757863;
+    border-bottom: 3px solid #F0EFE2;
+    line-height: 43px;
+    height: 43px;
+}
+
+.main1 .cont .right .son1 ul li:last-child {
+    width: 65px;
+}
+
+.main1 .cont .right .son2 {
+    float: right;
+    height: 35px;
+    margin-top: 7px;
+    width: 300px;
+}
+
+.main1 .cont .right .son2 .search {
+    height: 28px;
+    width: 298px;
+    border: 1px solid #d7d5bc;
+    overflow: hidden;
+    background-color: #FBFAF6;
+    border-radius: 5px;
+}
+
+.main1 .cont .right .son2 .search form input:first-child {
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    padding-left: 5px;
+    width: 260px;
+    font-size: 14px;
+    border: 0px;
+    background-color: #FBFAF6;
+    color: #0F1600;
+    outline: 0px;
+}
+
+.main1 .cont .right .son2 .search form input:last-child {
+    float: right;
+    width: 24px;
+    height: 24px;
+    clear: right;
+    margin-top: 2px;
+    margin-right: 3px;
+    background-image: url("../img/docSearch.png");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.main3 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.main3 .left {
+    width: 670px;
+    float: left;
+}
+
+.main3 .left .sons {
+    height: auto;
+    background-color: #F0EFE2;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 1px solid #d7d5bc;
+    border-radius: 5px;
+}
+
+.main3 .left .sons .cont {
+    height: auto;
+    padding-top: 15px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 200%;
+    overflow: hidden;
+}
+
+.main3 .left .sons .cont p {
+    margin-bottom: 10px;
+    line-height: 200%;
+}
+
+.main3 .left .sons .cont a b {
+    font-size: 20px;
+    line-height: 22px;
+    height: 22px;
+}
+
+.main3 .left .sons .cont>a {
+    float: left;
+}
+
+.main3 .left .sons .cont span {
+    color: #65645F;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 200%;
+}
+
+b {
+    font-weight: bold;
+}
+
+.main3 .left .sons .cont p a {
+    font-size: 12px;
+    color: #65645F;
+}
+
+.main3 .left .sons .cont .contson {
+    overflow: hidden;
+}
+
+.pagesright {
+    float: left;
+    width: auto;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagesright a {
+    float: right;
+    margin-left: 10px;
+    line-height: 40px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #F0EFE2;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #d7d5bc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.pagesright .amore {
+    float: left;
+    width: 430px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.pagesright .second {
+    color: #808080;
+    background-color: #e7e6d8;
+}
+
+.pagesright span {
+    color: #676767;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 5px;
+    float: right;
+    text-align: center;
+    background-color: #F0EFE2;
+    border: 1px solid #d7d5bc;
+    border-radius: 5px;
+}
+
+.pagesright:nth-child(3) {
+    background-color: #E1E0C7;
+    border: 0px;
+    margin-top: 22px;
+    width: auto;
+}
+
+.pagesright .curent {
+    margin-left: 55px;
+    background-color: #fbfbf6;
+    box-shadow: inset 0 0 3px #b5b4a9;
+}
+
+.pagesright span input {
+    width: 29px;
+    margin-top: 11px;
+    text-align: center;
+    font-size: 14px;
+    border: 0px;
+    background-color: #fbfbf6;
+    color: #676767;
+    outline: 0px;
+}
+
+.main4 {
+    overflow: hidden;
+    text-align: center;
+    border-top: 1px solid #d7d5bc;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #676767;
+}
+
+.main4 ul li a {
+    color: #676767;
+}
+
+.main4 ul:first-child {
+    float: left;
+    margin-top: 5px;
+    margin-left: 105px;
+    color: #676767;
+}
+
+.title {
+    color: #19537D;
+}
+
+.main3 .right {
+    width: 300px;
+    clear: right;
+    float: right;
+}
+
+.main3 .right .sons {
+    height: auto;
+    width: 298px;
+    margin-top: 20px;
+    float: left;
+    background-color: #F0EFE2;
+    overflow: hidden;
+    border: 1px solid #d7d5bc;
+    border-radius: 5px;
+}
+
+div {
+    display: block;
+}
+
+.main3 .right .sons .title {
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.main3 .right .sons .title .titleleft {
+    height: 21px;
+    width: 3px;
+    margin-top: 1px;
+    float: left;
+    background-color: #A2C241;
+    margin-right: 8px;
+}
+
+.main3 .right .sons .cont {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.main3 .right .sons .cont a {
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    width: 70px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid #DAD9D1;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main4 ul li a img{
+    float: left;
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    color: #676767;
+}
